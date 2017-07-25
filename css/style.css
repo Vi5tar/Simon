@@ -1,0 +1,238 @@
+.button1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 175px;
+  width: 175px;
+  background: #258825;
+  border-radius: 5%;
+}
+
+.button1:active {
+  background: #36F146;
+}
+
+.button1Active {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 175px;
+  width: 175px;
+  background: #36F146;
+  border-radius: 5%;
+}
+
+.button2 {
+  position: absolute;
+  top: 20px;
+  left: 205px;
+  height: 175px;
+  width: 175px;
+  background: #882525;
+  border-radius: 5%;
+}
+
+.button2:active {
+  background: #F14636;
+}
+
+.button2Active {
+  position: absolute;
+  top: 20px;
+  left: 205px;
+  height: 175px;
+  width: 175px;
+  background: #F14636;
+  border-radius: 5%;
+}
+
+.button3 {
+  position: absolute;
+  top: 205px;
+  left: 205px;
+  height: 175px;
+  width: 175px;
+  background: #255688;
+  border-radius: 5%;
+}
+
+.button3:active {
+  background: #3684F1;
+}
+
+.button3Active {
+  position: absolute;
+  top: 205px;
+  left: 205px;
+  height: 175px;
+  width: 175px;
+  background: #3684F1;
+  border-radius: 5%;
+}
+
+.button4 {
+  position: absolute;
+  top: 205px;
+  left: 20px;
+  height: 175px;
+  width: 175px;
+  background: #888825;
+  border-radius: 5%;
+}
+
+.button4:active {
+  background: #E1F136;
+}
+
+.button4Active {
+  position: absolute;
+  top: 205px;
+  left: 20px;
+  height: 175px;
+  width: 175px;
+  background: #E1F136;
+  border-radius: 5%;
+}
+
+.case {
+  position: relative;
+  margin: auto;
+  margin-top: 5%;
+  width: 400px;
+  height: 400px;
+  background: black;
+  border-radius: 5%;
+}
+
+.controlPanel {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  height: 200px;
+  width: 200px;
+  background: black;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+}
+
+.simonButton1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 175px;
+  width: 175px;
+  background: #258825;
+  border-radius: 5%;
+}
+
+.simonButton2 {
+  position: absolute;
+  top: 20px;
+  left: 205px;
+  height: 175px;
+  width: 175px;
+  background: #882525;
+  border-radius: 5%;
+}
+
+.simonButton3 {
+  position: absolute;
+  top: 205px;
+  left: 205px;
+  height: 175px;
+  width: 175px;
+  background: #255688;
+  border-radius: 5%;
+}
+
+.simonButton4 {
+  position: absolute;
+  top: 205px;
+  left: 20px;
+  height: 175px;
+  width: 175px;
+  background: #888825;
+  border-radius: 5%;
+}
+
+.step {
+  position: absolute;
+  top: 120px;
+  left: 154px;
+  -ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+  transform: rotate(-45deg);
+}
+
+#number {
+  color: red;
+  font-family: 'VT323', monospace;
+  font-size: 30px;
+}
+
+.startButton {
+  position: absolute;
+  left: 75px;
+  top: 145px;
+  -ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+  transform: rotate(-45deg);
+}
+
+#strictButton {
+  position: absolute;
+  top: 85px;
+  left: 133px;
+  -ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+  transform: rotate(-45deg);
+}
+
+.simonLogo {
+  position: absolute;
+  left: 0px;
+  top: 38px;
+  width: 150px;
+  height: 75px;
+  background: white;
+  border-radius: 100px;
+  -ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+  transform: rotate(-45deg);
+}
+
+#logo {
+  position: absolute;
+  top: -28px;
+  left: 19px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Teko', sans-serif;
+}
+
+.strictLedOff {
+  position: absolute;
+  top: 24px;
+  left: 23px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #00107F;
+}
+
+.strictLedOn {
+  position: absolute;
+  top: 24px;
+  left: 23px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #0059FF;
+}
+
+button {
+  border-radius: 10%;
+  background: white;
+  font-family: 'Teko', sans-serif;
+}

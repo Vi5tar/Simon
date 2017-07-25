@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Travis</title>
+  <link href="https://fonts.googleapis.com/css?family=VT323|Teko:700" rel="stylesheet"> 
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="case">
+  <div id="buttonCluster">
+    <div id="button1" class="simonButton1"></div>
+    <div id="button2" class="simonButton2"></div>
+    <div id="button3" class="simonButton3"></div>
+    <div id="button4" class="simonButton4"></div>
+  </div>
+  <div class="controlPanel">
+    <button class="startButton" onclick="startNewGame()">Start</button>
+    <div id="strictButton">
+      <button onclick="strictOn()">Strict</button>
+    </div>
+    <div id="step" class="step">
+      <p id="number">--</p>
+    </div>
+    <div class="simonLogo">
+      <p id="logo">Simon&reg;</p>
+    </div>
+    <div id="strictLed">
+      <div class="strictLedOff"></div>
+    </div>
+    <div class="testStart"></div>
+  </div>
+</div>
+
+</div>
+
+<audio id="simonSound1">
+  <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="simonSound2">
+  <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="simonSound3">
+  <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="simonSound4">
+  <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mpeg">
+</audio>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
